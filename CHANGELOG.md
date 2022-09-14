@@ -1,5 +1,12 @@
 # Changelog
 
+## 14.12.0
+
+- Added: `declaration-block-no-duplicate-properties` autofix ([#6296](https://github.com/stylelint/stylelint/pull/6296)) ([@ab34b266](https://github.com/ab34b266)).
+- Added: regex support for `ignorePseudoClasses` option of `selector-pseudo-class-no-unknown` ([#6316](https://github.com/stylelint/stylelint/pull/6316)) ([@ybiquitous](https://github.com/ybiquitous)).
+- Added: regex support for `ignorePseudoElements` option of `selector-pseudo-element-no-unknown` ([#6317](https://github.com/stylelint/stylelint/pull/6317)) ([@ybiquitous](https://github.com/ybiquitous)).
+- Fixed: `*-no-unknown` false positives for container queries ([#6318](https://github.com/stylelint/stylelint/pull/6318)) ([@ab34b266](https://github.com/ab34b266)).
+
 ## 14.11.0
 
 - Added: `ignoreAfterCombinators: []` to `selector-max-universal` ([#6275](https://github.com/stylelint/stylelint/pull/6275)).
